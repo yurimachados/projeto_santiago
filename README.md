@@ -29,6 +29,10 @@ Node.js
 ```
 npm i
 ```
+##### Instalar http-server globalmente
+```
+npm i -g http-server
+```
 
 ##### Rodar Servidor Local
 ```
