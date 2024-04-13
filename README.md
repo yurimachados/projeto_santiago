@@ -1,5 +1,10 @@
 # Projeto de Desenho 
 
+### Autores
+
+- Lucas Henrique Santos
+- Santiago Lodeiro
+
 #### O sistema a ser desenvolvido possui os seguintes requisitos:
 1. O sistema deve rodar em um browser, sendo desejável utilizar HTML, CSS e
 Javascript;
