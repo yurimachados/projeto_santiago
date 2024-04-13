@@ -1,10 +1,11 @@
 var canvas = document.getElementById('areaDesenho');
 var ctx = canvas.getContext('2d');
 
-// Escalas iniciais dos elementos
+// Posicionamento
 var posX = 150;
 var posY = 70;
 let angulo = 0;
+// Escalas iniciais dos elementos
 let largura = 50; 
 let altura = 33;
 let raio = 25; 
@@ -42,14 +43,12 @@ function moverDireita() {
 // Função para rotacionar o elemento para a direita
 function rotacionarDireita(){
     angulo += 5; 
-    console.log('rotacionado a esquerda')
     desenharElemento();
 } 
 
 // Função para rotacionar o elemento para a esquerda
 function rotacionarEsquerda(){
     angulo -= 5; 
-    console.log('rotacionado a esquerda')
     desenharElemento();
 }
 
