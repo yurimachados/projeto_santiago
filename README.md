@@ -8,11 +8,11 @@ um círculo e um triângulo;
 3. Para cada elemento a ser inserido o usuário deve poder definir a localização
 e ou tamanho;
 4. Com cada elemento inserido deve ser possível:
-a. Redimensionar;
-b. Rotacionar;
-c. Mover;
-d. Alterar escala;
-e. Pintar (sólido e gradiente).
+- Redimensionar;
+- Rotacionar;
+- Mover;
+- Alterar escala;
+- Pintar (sólido e gradiente).
 5. Toda a manipulação dos elementos pode ser feita por meio de botões e
 controles de ajustes.
 
