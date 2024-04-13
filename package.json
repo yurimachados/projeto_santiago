@@ -1,0 +1,23 @@
+{
+  "name": "projeto_santiago",
+  "version": "1.0.0",
+  "description": "Projeto",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yurimachados/projeto_santiago.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yurimachados/projeto_santiago/issues"
+  },
+  "homepage": "https://github.com/yurimachados/projeto_santiago#readme",
+  "dependencies": {
+    "http-server": "^14.1.1"
+  }
+}

@@ -1,0 +1,67 @@
+body{
+    background-color: #d5d5d5 !important;
+}
+.project-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black; */
+    flex-wrap: nowrap;
+    flex-direction: column;
+    /* background-color: rgb(127, 181, 231); */
+}
+.controles{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+#areaDesenho{
+    border: 1px solid black;
+    height: 400px;
+    width: 100%;
+    background-color: rgb(250, 250, 250);
+}
+.control-div{
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#corElemento{
+    width: 45px;
+    height: 45px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 50px;
+    height: 41px;
+}
+#corElemento2{
+    width: 45px;
+    height: 45px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 50px;
+    height: 41px;
+}
+.element-options{
+    display: flex;
+}
+.escala-div{
+    display: flex !important;
+    margin-bottom: 10px;
+}
+.color-div{
+    margin-top: 15px !important;
+    margin-bottom: 15px;
+}
+#btnInserirElemento{
+    margin-top: 18px;
+}
+.headline{
+    padding-top: 40px;
+    margin-bottom: 40px;
+}

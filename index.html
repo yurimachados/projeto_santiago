@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Projeto de Desenho</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="https://kit.fontawesome.com/f2f512608f.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container root">
+        <div class="project-container">
+            <div class="row headline">
+                <div class="col">
+                    <h1>Projeto de Desenho</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <canvas id="areaDesenho"></canvas>
+                </div>
+            </div>
+            <div class="row controles">
+                <div class="col col-6">
+                    <div class="row">
+                        <div class="col col-4 control-div">
+                            <button class="btn btn-primary" id="btnRotacionarDireita"><i class="fa-solid fa-rotate-right"></i></button>
+                        </div>
+                        <div class="col col-4 control-div">
+                            <button class="btn btn-primary" id="btnCima"><i class="fas fa-arrow-up"></i></button>
+                        </div>
+                        <div class="col col-4 control-div">
+                            <button class="btn btn-primary" id="btnRotacionarEsquerda"><i class="fa-solid fa-arrow-rotate-left"></i></button>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col col-4 control-div">
+                            <button class="btn btn-primary" id="btnEsquerda"><i class="fas fa-arrow-left"></i></button>
+                        </div>
+                        <div class="col col-4 control-div">
+                            
+                        </div>
+                        <div class="col col-4 control-div">
+                            <button class="btn btn-primary" id="btnDireita"><i class="fas fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col col-4 control-div">
+                            <button class="btn btn-primary" id="btnEscalaMenos"><i class="fa-solid fa-minus"></i></button>
+                        </div>
+                        <div class="col col-4 control-div">
+                            <button class="btn btn-primary" id="btnBaixo"><i class="fas fa-arrow-down"></i></button>
+                        </div>
+                        <div class="col col-4 control-div">
+                            <button class="btn btn-primary" id="btnEscalaMais"><i class="fa-solid fa-plus"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-6">
+                    <div class="row element-options">
+                            <select id="tipoElemento" class="form-control">
+                                <option value="retangulo">Retângulo</option>
+                                <option value="circulo">Círculo</option>
+                                <option value="triangulo">Triângulo</option>
+                            </select>
+                    </div>
+                    <div class="row color-div">
+                        <div class="col col-6">
+                            <label for="corElemento">Cor Sólida</label>
+                            <input type="color" id="corElemento" value="#2a65d1" class="form-control">
+                        </div>
+                        <div class="col col-6">
+                            <label for="corElemento2">Cor Gradiente</label>
+                            <input type="color" id="corElemento2" value="#e01659" class="form-control">
+                        </div>
+                        <div class="row">
+                            <label for="gradientRange" class="form-label">Nível de Gradiente</label>
+                            <input type="range" class="form-range" min="0" max="10" id="gradientRange">
+                        </div>
+                    </div>
+                    <div class="row escala-div">
+                        <label for="inputEscala">Escala</label>
+                        <input type="number" id="inputEscala" value="1" class="form-control">
+                        <button class="btn btn-primary" id="btnInserirElemento">Atualizar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
